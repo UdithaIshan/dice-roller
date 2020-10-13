@@ -25,12 +25,12 @@
     </RelativeLayout>
 
     <Button
+        android:id="@+id/btnRoller"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Roll the dice"
-        android:textColor="#000"
         android:background="@color/colorAccent"
-        />
+        android:text="Roll the dice"
+        android:textColor="#000" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,15 +40,18 @@
         >
 
         <ImageView
+            android:id="@+id/img1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/dice1"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:src="@drawable/dice1" />
+
         <ImageView
+            android:id="@+id/img2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/dice2"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:src="@drawable/dice2" />
 
     </LinearLayout>
 
